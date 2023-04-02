@@ -27,6 +27,7 @@ function Calc() {
   //adicionando numero no display
   this.addNumDisplay = (el) => {
     this.display.value += el.innerText;
+    this.display.focus();
   };
   //limpando o display
   this.clearDisplay = () => {
